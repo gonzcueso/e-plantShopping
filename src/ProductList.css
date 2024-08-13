@@ -250,3 +250,20 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+
+  .cart-icon-container {
+    position: relative;
+}
+
+
+.cart-counter {
+    position: absolute;
+    top: 48%; /* Centrado verticalmente */
+    left: 50%; /* Centrado horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para que esté exactamente en el centro */
+    background-color: transparent; /* Sin fondo */
+    color: white; /* Color del número */
+    font-weight: bold;
+    font-size: 24px; /* Ajusta el tamaño de la fuente para sobrescribir al carrito */
+    z-index: 10; /* Asegura que el contador esté por encima del ícono */
+  }
