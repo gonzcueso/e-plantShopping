@@ -8,8 +8,8 @@
 
 .landing-page {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: #f8f8f8;
 }
 
@@ -28,17 +28,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
  top: 100px;
   backdrop-filter: blur(4px);
   background-color: rgba(0,0,0,0.5);
-  gap: 20px;
+  gap: 10px;
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
+ margin-top: 330px;
+  margin-left: 230px;
   transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
@@ -67,7 +67,7 @@
 }
 
 .divider {
-  width: 50px;
+  width: 25px;
   height: 2px;
   background-color: #4caf50;
   margin: 10px 0;
@@ -125,7 +125,7 @@
   .landing_content {
     margin-top: 100px; /* Adjust as needed */
     margin-left: 0;
-    width: 80%; /* Adjust as needed */
+    width: 10%; /* Adjust as needed */
     text-align: center;
   }
 
