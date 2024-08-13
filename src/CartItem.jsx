@@ -40,7 +40,8 @@ const CartItem = ({ onContinueShopping, onItemRemoved }) => {
 
   // Calcular el costo total basado en la cantidad de un producto
   const calculateTotalCost = (item) => {
-    return item.quantity * item.cost;
+    const itemCost = parseFloat(item.cost.replace('$', '')); // Elimina el símbolo $ y convierte a número
+    return item.quantity * itemCost;
   };
 
   return (
